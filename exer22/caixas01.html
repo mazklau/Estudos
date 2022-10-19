@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelos de caixas</title>
+    <style>
+        h1{
+           /* code de caixas
+            border: ;
+            padding: ;
+            height: ;
+            width: ;        
+            margin: ;
+            outline: ;
+            */
+
+            /*
+            tem dois tipos de caixas 
+            box-level  e  inline-level
+
+
+            box-level
+            caracteristicas dele inicia em uma linha nova e tambem ele ultiliza a laguras enteira
+               
+            <div>      <h1 a h6>     < p >     <main>
+            <header>   < nav >      <article>  <aside>
+            <footer>   < form >     <video>
+
+            inline-level
+            caracteristica dele nao pulas linha ele da um espaço e nao quebra a linha nao oculpa o lagura inteira
+
+            <span>       < a >     < strong >
+            <code>       <small>   < em >
+            <label>      <button>  < input >    
+            <sup>-<sub>            < select >
+
+            */
+            background-color: beige;
+            height: 300px;
+            width: 300px;
+
+            /* border-width: 10px;
+            border-color: aquamarine;    simplefica a baixo
+            border-style: solid; */
+            
+            border: 10px solid aquamarine;
+
+            /* padding-right: 10px;
+            padding-top: 10px;
+            padding-left: 10px;    simplefica a baixo
+            padding-bottom: 10px; */
+
+            padding: 10px  ;
+
+            /*margin-top: 10px;
+            margin-right: 10px;    simplefica a baixo
+            margin-bottom: 10px;
+            margin-left: 10px;*/
+
+            margin: 10px ;
+
+            /*outline-width: 5px;
+            outline-style: dashed;    simplefica a baixo
+            outline-color: salmon;*/
+
+            outline: 5px dashed salmon;
+
+
+    
+        }
+        a{  /*inline*/
+            
+            border-style: dashed;
+            border-width: 10px;
+            border-color: greenyellow;
+            background-color: beige;
+            border-width: 10px;
+            border-style: solid;
+
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Lorem ipsum dolor sit amet consectetur<a href=""> adipisicing elit.</a> Rem earum voluptas accusantium aspernatur numquam. Provident quod necessitatibus dolorum! Possimus assumenda explicabo dolorum quod ea! Quae maiores vel eligendi possimus distinctio.</p>
+
+    
+</body>
+</html>

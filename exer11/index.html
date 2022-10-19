@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midia em html5</title>
+</head>
+<body>
+    <h1>imagem dinaminca</h1>
+    <p>tente abri esse site e varias dispositivos ou abra e diminua a pagina </p>
+    
+    <picture>
+       <source media="(min-width: 1050px)" srcset="imagens/foto-g.png" type="image/png">
+       <source media="(min-width: 750px)" srcset="imagens/foto-m.png" type="image/png">
+       <img src="imagens/foto-p.png" alt="imagem flexível">
+       <!--use dessa forma decresente-->
+    <pre>
+        </picture>
+        <h1>audio</h1>
+        <p>vamos aprender a reproduzir audio</p>
+        <audio preload="metadata" autoplay controls>
+        <source src="midia/Handgun - Dry Fire.mp3" type="audio/mpeg">
+        <source src="midia/Handgun - Dry Fire.mp3"type="audio/ogg">
+        <source src="midia/Handgun - Dry Fire.mp3" type="audio/wav">
+        </audio>
+        <audio preload="metadata" autoplay controls>
+        <source src="midia/Afternoon Storm Long.mp3" type="audio/mpeg">
+        <source src="midia/Afternoon Storm Long.mp3"type="audio/ogg">
+        <source src="midia/Afternoon Storm Long.mp3" type="audio/wav">
+        </audio>
+    </pre>
+     <pre>
+    <p>infelizmente seu navegadi nao consegui reproduzir audio
+        <a href="midia/Handgun - Dry Fire.mp3">primeiro audio</a>
+        <a href="midia/Afternoon Storm Long.mp3">clique aqui para baixar</a></p>
+    </pre>
+</body>
+</html>
