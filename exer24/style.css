@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{  
+    min-height: 100vh;
+    background-color: rgb(209, 209, 209);
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+header > p {
+ 
+    padding-bottom: 50px;
+
+}
+
+#normal{
+    background-color: white;
+    
+}
+section{
+    width: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 2.8vw;
+    padding-left: 30px;
+
+
+}
+section.imagem{
+    height: 70vh;
+    color: white;
+    background-color: rgb(19, 19, 19)
+}
+#img1{
+    
+    height: auto;
+    background-attachment: fixed;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+#img2{
+    
+    height: auto;
+    background-attachment: fixed;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    
+} 
+section > p {
+     padding-bottom: 2em;
+}
+section.imagem >p {
+    font-family: var(--font3);
+    font-size: 1.3em;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding-left: 5px;
+    width: 600px;
+    
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+header a:hover , footer a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
