@@ -50,7 +50,7 @@ section.imagem{
 }
 #img1{
     
-    height: auto;
+    height: 50vw;
     background-attachment: fixed;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
@@ -59,7 +59,7 @@ section.imagem{
 }
 #img2{
     
-    height: auto;
+    height: 50vw;
     background-attachment: fixed;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
@@ -75,7 +75,7 @@ section.imagem >p {
     font-size: 1.3em;
     background-color: rgba(0, 0, 0, 0.541);
     padding-left: 5px;
-    width: 600px;
+    width:  50vw;;
     
 }
 header a, footer a{
