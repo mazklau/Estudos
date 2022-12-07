@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <h1>test de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on"> 
+        <p>
+            <label for="iusu">usuario</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" size="20" placeholder="nome do usuario" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">passowrd</label>
+            <input type="password" name="isen" id="sen" required minlength="8" maxlength="20" size="20" placeholder="pelo menos 8 letras" autocomplete="current-password">
+        </p>  
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+        
+    </form>
+    
+</body>
+</html>
